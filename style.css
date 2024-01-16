@@ -1,0 +1,60 @@
+button{
+    /* /* border-radius: 25px; */
+    /* background-color: #6e6e6e; */
+    /* background: linear-gradient(145deg, #6e6e6e, #838383); */
+    /* box-shadow:  20px 20px 60px #515151, */
+                /* -20px -20px 60px #a3a3a3; */ 
+    height: 80px;
+    width: 80px;
+    color: rgb(78, 61, 61);
+    margin: 5px;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.24);
+    cursor:pointer;
+    background-color: rgba(250, 184, 236, 0.727);
+    font-size: 30px;
+}
+body{
+    background-color: black;
+    background-image: url("https://cdn.dribbble.com/users/524613/screenshots/11755746/media/34244b2c94d458971f217d5657c3a3ec.jpg?resize=450x338&vertical=center");
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    justify-content: center;
+    height: 90vh;
+}
+.keypad{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+#calc{
+    max-width: 400px;
+    margin: 100px;
+    padding: 11px;
+    /* background-color: #7a7a7a; */
+    /* border-radius: 5px; */
+
+    
+    background: rgba(255, 255, 255, 0.39);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(6.3px);
+    -webkit-backdrop-filter: blur(6.3px);
+    border: 1px solid rgba(255, 255, 255, 0.24);
+}
+#screen{
+    width: 340px;
+    border-radius: 8px;
+    border: none;
+    font-size: 40px;
+    margin-left: 7.5px;
+    margin-bottom: 15px;
+    margin-top: 10px;
+    height: 70px;
+    
+}
+button:hover{
+    background-color: #e4c1f9;
+}
